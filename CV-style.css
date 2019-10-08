@@ -2,20 +2,24 @@
 *{
 	font-family: "Times New Roman", Times, serif;
 }
-p{
-	font-style: oblique;
-}
+
 
 .img-fluid{
-	width: 180px;
-	height: 120px;
+	
+	 width: 160px; /* largeur de l'image */
+  height: 150px; /* hauteur de l'image */
+  border-radius: 60%;
 	}
 
+.logo{
+	width: 30px; /* largeur de l'image */
+  height: 30px;
+}
 li {
   display: inline;
 }
 a{
-	color:red;
+	color:blue;
   font-size: 35px;
 }
 
@@ -36,4 +40,31 @@ aside {
 
 aside > p {
     margin: .5rem;
+}
+body > p {
+  font-style: oblique;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+footer {
+	background-color: black;
+	height: 50px;
+}
+footer >p{
+	color: blue;
+	align
 }
