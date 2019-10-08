@@ -6,13 +6,13 @@
 
 .img-fluid{
 	
-	 width: 160px; /* largeur de l'image */
-  height: 150px; /* hauteur de l'image */
+	 width: 160px; 
+  height: 150px; 
   border-radius: 60%;
 	}
 
 .logo{
-	width: 30px; /* largeur de l'image */
+	width: 30px; 
   height: 30px;
 }
 li {
@@ -24,13 +24,16 @@ a{
 }
 
 body{
-	background-color:grey;
+	background-color:#00FFFF;
+	
 }
 h1{
 	font-size: 60px;
+	color: #000080;
 }
 aside {
     width: 50%;
+    height: 80%;
     padding-left: .5rem;
     margin-left: .5rem;
     float: right;
@@ -41,6 +44,12 @@ aside {
 aside > p {
     margin: .5rem;
 }
+aside>h1{
+
+    font-style: bold;
+    font-size: 20px;
+}
+
 body > p {
   font-style: oblique;
   animation-duration: 3s;
@@ -61,10 +70,10 @@ body > p {
 
 
 footer {
-	background-color: black;
-	height: 50px;
+	background-color: grey;
+	height: 100px;
 }
 footer >p{
 	color: blue;
-	align
+	
 }
