@@ -12,30 +12,40 @@
 	}
 
 .logo{
-	width: 30px; 
-  height: 30px;
+	width: 75px; 
+  height: 75px;
+  border-width: 5px;
+border-style: outset;
+border-color: #87CEEB;
 }
-li {
+li{
   display: inline;
 }
+
 a{
 	color:blue;
   font-size: 35px;
 }
 
 body{
-	background-color:#00FFFF;
-	
+	/**background: linear-gradient(#e66465, #9198e5);**/
+	background: linear-gradient(0.25turn, #48D1CC,#3f87a6, #ebf8e1, #f69d3c);
+	/**background: linear-gradient(#e66465, #9198e5);**/
 }
 h1{
-	font-size: 60px;
+	font-size: 50px;
 	color: #000080;
+	padding-left: 0px;
+    margin-left: 35px;
+    margin-right: auto;
+    text-align: center;
+    
 }
 aside {
     width: 50%;
     height: 80%;
-    padding-left: .5rem;
-    margin-left: .5rem;
+    padding-left: .8rem;
+    margin-left: .8rem;
     float: right;
     box-shadow: inset 5px 0 5px -5px #29627e;
    
@@ -45,16 +55,16 @@ aside > p {
     margin: .5rem;
 }
 aside>h1{
-
+    text-align: left;
     font-style: bold;
     font-size: 20px;
 }
 
-body > p {
-  font-style: oblique;
+nav {
   animation-duration: 3s;
   animation-name: slidein;
 }
+
 
 @keyframes slidein {
   from {
@@ -70,10 +80,45 @@ body > p {
 
 
 footer {
-	background-color: grey;
-	height: 100px;
+	/*background-color: black;*/
+	height: 150px;
+	border-width: 5px;
+border-style: outset;
+border-color: #87CEEB;
+background : linear-gradient(0.25turn, #e66465, #9198e5, 	#EE82EE);
 }
 footer >p{
 	color: blue;
 	
 }
+
+
+nav {
+
+height: 90px;
+width: 900px;
+padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+/*
+border-width: 5px;
+border-style: outset;
+border-color: #87CEEB;
+background : linear-gradient(0.25turn, #e66465, #9198e5); */
+text-align: center; 
+}
+nav>ul>li{
+	 margin-top: auto;
+  margin-bottom: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+body>header{
+	height: 40px;
+	
+}
+
+
+
+
